@@ -14,8 +14,12 @@
 主要代码截图<br>
 =========
 
+![Image discription](https://github.com/lxy210bipt/jva/blob/master/%E6%88%AA%E5%9B%BElxy1.PNG)
 
 
 
 
 首先判断字数奇偶。然后在第8个位置加逗号，再隔8个位置加句号。<br>
+
+
+![Image discription]()
