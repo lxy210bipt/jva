@@ -9,9 +9,12 @@
 程序框图<br>
 ==========
 
+![Image discription](https://github.com/lxy210bipt/jva/blob/master/%E6%8D%95%E8%8E%B7lxy.PNG)
 
 主要代码截图<br>
 =========
+
+
 
 
 
