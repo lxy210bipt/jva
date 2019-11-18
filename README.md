@@ -22,4 +22,13 @@
 首先判断字数奇偶。然后在第8个位置加逗号，再隔8个位置加句号。<br>
 
 
-![Image discription]()
+![Image discription](https://github.com/lxy210bipt/jva/blob/master/lxy.PNG)
+
+最后根据要求查找目的字符，如果没有查找成功则显示“错误”。
+
+![Image discription]（）
+
+实验感想<br>
+==========
+
+通过本次实验我学会了如何在特定位置插入字符，并且用循环语句重复判断整首古诗。下标加注的时候要注意从0开始。
