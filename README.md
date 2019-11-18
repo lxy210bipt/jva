@@ -26,7 +26,7 @@
 
 最后根据要求查找目的字符，如果没有查找成功则显示“错误”。
 
-![Image discription]
+![Image discription](https://github.com/lxy210bipt/jva/blob/master/%E7%BB%93%E6%9E%9C.PNG)
 
 实验结果：查找指定字符。
 
