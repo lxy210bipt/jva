@@ -9,7 +9,7 @@
 程序框图<br>
 ==========
 
-![Image discription](https://github.com/lxy210bipt/jva/blob/master/%E6%8D%95%E8%8E%B7lxy.PNG)
+![Image discription](https://github.com/lxy210bipt/jva/blob/master/%E6%9D%8E%E6%97%AD%E6%B4%8B.jpg.PNG)
 
 主要代码截图<br>
 =========
