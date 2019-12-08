@@ -15,26 +15,60 @@
 
 ![Image discription](https://github.com/lxy210bipt/jva/blob/master/%E6%9D%8E%E6%97%AD%E6%B4%8B.jpg.PNG)
 
-主要代码截图<br>
+截图<br>
 =========
 
-![Image discription](https://github.com/lxy210bipt/jva/blob/master/%E6%88%AA%E5%9B%BElxy1.PNG)
+![Image discription](https://github.com/lxy210bipt/jva/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20191208225654.jpg)
 
+核心代码<br>
+package GUI;<br>
+import java.awt.EventQueue;<br>
+import javax.swing.JFrame;<br>
+import java.awt.event.ActionListener;<br>
+import java.awt.event.ActionEvent;<br>
+import javax.swing.JPanel;<br>
+import javax.swing.border.EmptyBorder;<br>
+import javax.swing.JButton;<br>
+public index() {<br>
+	setTitle("index");<br>
+	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);<br>
+	setBounds(150, 150, 500, 350);<br>
+	contentPane = new JPanel();<br>
+	contentPane.setBorder(new EmptyBorder(10, 10, 10, 10));<br>
+	setContentPane(contentPane);<br>
+	contentPane.setLayout(null);<br>
+	JButton btnNewButton = new JButton("exit");<br>
+	btnNewButton.setBounds(0, 110, 100, 30);<br>
+	contentPane.add(btnNewButton);<br>
+	btnNewButton.addActionListener(new ActionListener(){<br>
+		public void actionPerformed(ActionEvent e) {<br>
+			Exit exit = new Exit();<br>
+			exit.setVisible(true);<br>
+			}<br>
+		});<br>
+	JButton btnNewButton_1 = new JButton("Chose");<br>
+	btnNewButton_1.setBounds(350, 110, 100, 30);<br>
+	contentPane.add(btnNewButton_1);<br>
+	btnNewButton_1.addActionListener(new ActionListener(){<br>
+		public void actionPerformed(ActionEvent e) {<br>
+			chose chose = new chose();<br>
+			chose.setVisible(true); <br>
+			}<br>
+		});<br>
+	JButton btnNewButton_3 = new JButton("Print");<br>
+	contentPane.add(btnNewButton_3);<br>
+	btnNewButton_3.setBounds(180, 110, 100, 30);<br>
+	btnNewButton_3.addActionListener(new ActionListener(){<br>
+		public void actionPerformed(ActionEvent e) {<br>
+			Print print = new Print();<br>
+			print.setVisible(true);<br>
+			}<br>
+		});<br>
+	}<br>
 
-
-
-首先判断字数奇偶。然后在第8个位置加逗号，再隔8个位置加句号。<br>
-
-
-![Image discription](https://github.com/lxy210bipt/jva/blob/master/lxy.PNG)
-
-最后根据要求查找目的字符，如果没有查找成功则显示“错误”。
-
-![Image discription](https://github.com/lxy210bipt/jva/blob/master/%E7%BB%93%E6%9E%9C.PNG)
-
-实验结果：查找指定字符。
+}<br>
 
 实验感想<br>
 ==========
 
-通过本次实验我学会了如何在特定位置插入字符，并且用循环语句重复判断整首古诗。下标加注的时候要注意从0开始。这次实验我发现仅仅依靠上课听讲依然不足以熟练运用所学知识，更重要的是要自己动手实践才能真正培养自己的能力。
+通过本次实验我学会了GUI编程设计，其中从建立框架到button的构建，课程信息导入都出现了不同问题，后来通过查阅课本，向同学请教最后得以解决。这个实验不仅培养了我的Java编程逻辑更是提高了独立解决分析问题的能力。
